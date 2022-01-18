@@ -1,1 +1,1 @@
-FROM index.docker.io/library/redhat:ubi8
+FROM index.docker.io/redhat/ubi8:latest
