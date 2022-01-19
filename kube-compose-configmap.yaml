@@ -16,7 +16,7 @@ spec:
         - 0.0.0.0:8080
       command: 
         - php
-      image: ignaciomartinmiranda/redhat_php:latest
+      image: ignaciomartinmiranda/redhat_php:latest@sha256:1698a867cfe57bbd219c7036b86e706463e7aac35ad234e6f2f105864596a383
       name: phpinfo-container
       ports: 
         -
