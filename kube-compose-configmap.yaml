@@ -12,19 +12,19 @@ spec:
         - 0.0.0.0:8080
       command: 
         - php
-       image: ignaciomartinmiranda/redhat_php:latest
-       name: phpinfo-container
-       ports: 
+      image: ignaciomartinmiranda/redhat_php:latest
+      name: phpinfo-container
+      ports: 
         -
           containerPort: 8080
           protocol: TCP
-       volumeMounts:  
+      volumeMounts:  
         -
           mountPath: /src/index.php
           name: phpinfo-volume
           readOnly: true
           subPath: index.php
-       workingDir: /src/
+      workingDir: /src/
   volumes:
     -
       configMap:
