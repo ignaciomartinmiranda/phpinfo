@@ -44,7 +44,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata: 
-  name: phpinfo_svc
+  name: phpinfo-svc
 spec:
   ports: 
     -
