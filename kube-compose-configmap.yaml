@@ -56,3 +56,12 @@ spec:
     env: prod
     tier: frontend
   type: ClusterIP
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: phpinfo-route
+spec:
+  to:
+    kind: Service
+    name: phpinfo-svc
