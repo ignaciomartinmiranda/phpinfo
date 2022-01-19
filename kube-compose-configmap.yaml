@@ -5,12 +5,12 @@ metadata:
 spec: 
   containers: 
     -
-       args:  
+      args:  
         - -f
         - index.php
         - -S
         - 0.0.0.0:8080
-       command: 
+      command: 
         - php
        image: ignaciomartinmiranda/redhat_php:latest
        name: phpinfo-container
