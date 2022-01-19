@@ -6,7 +6,8 @@ spec:
   containers: 
     -
        args:  
-        - -f src/index.php -S 0.0.0.0:8080
+        - -f src/index.php
+        - -S 0.0.0.0:8080
        command: 
         - php
        image: ignaciomartinmiranda/redhat_php:latest
